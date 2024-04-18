@@ -47,7 +47,7 @@ class Model:
         })
         text = dict(response)
         print(text)
-        pattern = re.compile(r'Question: (.+)\?\s*(.*)', re.DOTALL)
+        pattern = re.compile(r'Question: (.+?)[?.]\s*(.*)', re.DOTALL)
         # Extracting wordings after "Question" key
         extracted_wordings = []
         for key, value in text.items():
