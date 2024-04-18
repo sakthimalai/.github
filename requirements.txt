@@ -1,0 +1,25 @@
+pyqt5
+google-auth
+google-api-python-client 
+Pillow
+pymongo
+ultralytics
+folium
+streamlit_folium
+streamlit_option_menu== 0.3.12
+streamlit-geolocation        
+streamlit-location==0.0.2
+google.generativeai
+pandas
+plotly.express
+matplotlib
+reportlab==4.1.0
+langchain
+transformers
+sentence_transformers
+streamlit
+huggingface-hub
+langchain-community
+chromadb
+langchain-core
+PyMuPDF
